@@ -18,7 +18,7 @@ folderlist = next(os.walk('.'))[1]
 if folderlist is None or len(folderlist) == 0:
     # In case the file is placed inside an inner most directory which contains only files and no other folders, this list will be empty.
     # Thus adding the current directory path as an element of the list.
-    folderlist = [str(os.getcwd())]
+    folderlist = E:\
 automode = True if input('Use AutoMode? Y/N : ').upper() == 'Y' else False
 
 def getname(name: str) -> str:
